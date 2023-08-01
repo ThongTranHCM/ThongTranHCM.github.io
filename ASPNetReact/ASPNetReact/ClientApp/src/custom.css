@@ -1,6 +1,6 @@
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #c06f24;
 }
 
 code {
@@ -8,7 +8,14 @@ code {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #e4ab78;
+    border-color: #6a4928;
+    transition: width 1s;
+    width: 150px;
 }
+
+    .btn-primary:hover {
+        background-color: #c06f24;
+        width: 170px;
+    }

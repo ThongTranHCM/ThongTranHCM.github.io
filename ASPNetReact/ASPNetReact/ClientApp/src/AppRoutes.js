@@ -1,4 +1,4 @@
-import { Counter } from "./components/Counter";
+import { Contacts } from "./components/Contacts";
 import { Education } from "./components/Education";
 import { Careers } from "./components/Careers";
 import { FetchData } from "./components/FetchData";
@@ -10,8 +10,8 @@ const AppRoutes = [
     element: <Home />
   },
   {
-    path: '/counter',
-    element: <Counter />
+    path: '/contacts',
+    element: <Contacts />
   },
   {
     path: '/education',
