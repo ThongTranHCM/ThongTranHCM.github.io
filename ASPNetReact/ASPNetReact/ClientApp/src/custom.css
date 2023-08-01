@@ -4,18 +4,75 @@ a {
 }
 
 code {
-  color: #E01A76;
+    color: #E01A76;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #e4ab78;
     border-color: #6a4928;
+}
+
+
+.btn-hoverscale {
     transition: width 1s;
     width: 150px;
 }
 
-    .btn-primary:hover {
+    .btn-hoverscale:hover {
         background-color: #c06f24;
         width: 170px;
     }
+.box-coffee {
+    color: #fff;
+    background-color: #e4ab78;
+    border-color: #6a4928;
+    align-content:center;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+.myStyleContainer {
+    flex: 1;
+    margin-top: 8px;
+    background-color: aliceblue;
+}
+.myStyleBox {
+    width: 50px;
+    height: 50px;
+}
+.myStyleRow {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.myStyleButton {
+    padding-inline: 8px;
+    padding-block: 6px;
+    border-radius: 4px;
+    background-color: oldlace;
+    align-self: flex-start;
+    margin-inline: 1%;
+    margin-bottom: 6px;
+    min-width: 48%;
+    text-align: center;
+}
+
+.myStyleSelected {
+    background-color: coral;
+    border-width: 0,
+}
+
+.myStyleButtonLabel {
+    font-size: 12px;
+    font-weight: 500;
+    color: coral
+}
+.myStyleSelectedLabel {
+    color: white
+}
+.myStyleLabel {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px
+}

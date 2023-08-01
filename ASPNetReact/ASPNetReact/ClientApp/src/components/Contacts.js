@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, InfoBox } from 'react';
 
 export class Contacts extends Component {
     static displayName = Contacts.name;
@@ -23,7 +23,7 @@ export class Contacts extends Component {
     render() {
         return (
             <div>
-                <h1>Contacts</h1>
+                <h1>QUICK INFO</h1>
                 <table>
                     <tr style={{ height: '40px' }}>
                         <th>Phone</th>
@@ -51,8 +51,45 @@ export class Contacts extends Component {
                 </table>
 
                 <br />
-                <p aria-live="polite">Current count: <strong>{this.state.fburl}</strong></p>
-
+                <h1>CONTACT ME</h1>
+                <table className='table' aria-labelledby="tabelLabel">
+                    <tr>
+                            <th>First Name *</th>
+                            <th>Last Name *</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input style={{ width: "400px" }}  type="text" id="fname" name="fname"/>
+                        </td>
+                        <td>
+                            <input style={{ width: "400px" }}  type="text" id="lname" name="lname" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Email *</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input style={{ width: "1200px" }} type="text" id="email" name="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Subject *</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input style={{ width: "1200px" }} type="text" id="subject" name="subject" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Message *</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input style={{width:"1200px"}} type="text" id="message" name="message" />
+                        </td>
+                    </tr>
+                </table>
             </div>
         );
     }
