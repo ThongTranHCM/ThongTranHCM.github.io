@@ -10,17 +10,17 @@ const AppRoutes = [
     element: <Home />
   },
   {
-    path: '/contacts',
-    element: <Contacts />
-  },
-  {
     path: '/education',
     element: <Education />
   },
   {
     path: '/careers',
     element: <Careers />
-  },
+    },
+    {
+        path: '/contacts',
+        element: <Contacts />
+    },
   {
     path: '/fetch-data',
     element: <FetchData />
