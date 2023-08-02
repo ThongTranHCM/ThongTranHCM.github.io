@@ -6,13 +6,6 @@ export class Education extends Component {
     constructor(props) {
         super(props);
         this.state = { currentCount: 0 };
-        this.incrementEducation = this.incrementEducation.bind(this);
-    }
-
-    incrementEducation() {
-        this.setState({
-            currentCount: this.state.currentCount + 1
-        });
     }
 
     render() {
@@ -21,12 +14,45 @@ export class Education extends Component {
                 <h1>Education</h1>
 
                 <p>This is a simple example of a React component.</p>
-                <p>Implement Education later.</p>
-                <h1>University </h1>
-
-                <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
-
-                <button className="btn btn-primary" onClick={this.incrementEducation}>Increment</button>
+                <div class="container-fluid">
+                    <h1>Three equal width columns</h1>
+                    <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+                    <div class="row">
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'orange' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'lime' }}>.col</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style={{ backgroundColor: 'orange' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'lime' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'orange' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'lime' }}>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                                width="130" alt="gh-pages branch setting"
+                                align
+                            />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style={{ backgroundColor: 'orange' }}></div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>
+                            University of Science<br />
+                            University of Science is a high-ranked university in teaching Computer Science in Vietnam
+                        </div>
+                        <div class="col" style={{ backgroundColor: 'lime' }}>.col</div>
+                        <div class="col" style={{ backgroundColor: 'white' }}>
+                            Le Hong Phong High School for the Gifted<br />
+                            Consolation prize for National excellent student in Computer Science (C++) in 2015.
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
