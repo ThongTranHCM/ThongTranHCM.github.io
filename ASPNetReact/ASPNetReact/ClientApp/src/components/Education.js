@@ -12,8 +12,6 @@ export class Education extends Component {
         return (
             <div>
                 <h1>Education</h1>
-
-                <p>This is a simple example of a React component.</p>
                 <div class="container-fluid">
                     <h1>Three equal width columns</h1>
                     <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
@@ -36,7 +34,6 @@ export class Education extends Component {
                         <div class="col" style={{ backgroundColor: 'lime' }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
                                 width="130" alt="gh-pages branch setting"
-                                align
                             />
                         </div>
                     </div>
