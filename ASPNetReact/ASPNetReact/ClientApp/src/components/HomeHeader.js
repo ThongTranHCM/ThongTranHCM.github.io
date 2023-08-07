@@ -25,7 +25,10 @@ export class HomeHeader extends Component {
             imgSaturate = "saturate(200%) ";
             imgTint = "hue-rotate(".concat(this.props.imgTint).concat("deg) ");
         }
-
+        let imgFile = "Images/avatar2small.jpg";
+        if (this.props.imgSource) {
+            imgFile = "Images/".concat(this.props.imgSource);
+        }
         if (this.props.imgHeight) {
             imgHeight = this.props.imgHeight;
         }
@@ -39,7 +42,7 @@ export class HomeHeader extends Component {
                         width: "100%",
                         height: imgHeight,
                         filter: imgFilter
-                    }} src="Images/avatar2small.jpg" alt="" />
+                    }} src={imgFile} alt="" />
                     <div className="align-middle text-center" style={{ paddingBlock: "10em" }}>
                         <h1>{this.props.h1Name}</h1>
                         <h2>{this.props.h2Name}</h2>
