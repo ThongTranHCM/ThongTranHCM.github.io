@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-export class Careers extends Component {
-    static displayName = Careers.name;
+export class Projects extends Component {
+    static displayName = Projects.name;
 
     constructor(props) {
         super(props);
         this.state = { currentCount: 0 };
-        this.incrementCareers = this.incrementCareers.bind(this);
+        this.incrementProjects = this.incrementProjects.bind(this);
     }
 
-    incrementCareers() {
+    incrementProjects() {
         this.setState({
             currentCount: this.state.currentCount + 1
         });
@@ -18,14 +18,14 @@ export class Careers extends Component {
     render() {
         return (
             <div>
-                <h1>Careers</h1>
+                <h1>Projects</h1>
 
                 <p>This is a simple example of a React component.</p>
-                <p>Implement Careers later.</p>
+                <p>Implement Projects later.</p>
 
                 <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
 
-                <button className="btn btn-primary" onClick={this.incrementCareers}>Increment</button>
+                <button className="btn btn-primary" onClick={this.incrementProjects}>Increment</button>
             </div>
         );
     }

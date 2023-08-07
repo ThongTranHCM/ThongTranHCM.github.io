@@ -39,7 +39,7 @@ export class HomeHeader extends Component {
                         width: "100%",
                         height: imgHeight,
                         filter: imgFilter
-                    }} src="Images/avatar.jpg" alt="" />
+                    }} src="Images/avatar2small.jpg" alt="" />
                     <div className="align-middle text-center" style={{ paddingBlock: "10em" }}>
                         <h1>{this.props.h1Name}</h1>
                         <h2>{this.props.h2Name}</h2>
