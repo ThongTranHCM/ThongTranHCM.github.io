@@ -34,7 +34,7 @@ export class Home extends Component {
                                 />
                             </h3>
                             <h3 style={{ textIndent: "55px" }}>My name is Tran Thoai Thong. And I am a developer, worked in web and game companies. If you would want to know me, this page should give you an overview.
-                                My contacts is at the bottom bar or you can visit HERE.
+                                My contacts is at the bottom bar or you can visit <a href='contacts'>HERE</a>.
                             </h3>
                             <div style={{ fontSize: "55px", textAlign: "right" }}>"</div>
                         </div>
