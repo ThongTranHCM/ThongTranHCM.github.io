@@ -8,6 +8,10 @@ const AppRoutes = [
         element: <Home />
     },
     {
+        path: '/home',
+        element: <Home />
+    },
+    {
         path: '/projects',
         element: <Projects />
     },

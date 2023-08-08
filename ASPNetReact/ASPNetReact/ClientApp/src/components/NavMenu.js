@@ -10,6 +10,7 @@ export class NavMenu extends Component {
         super(props);
 
         this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.DownloadCVClick = this.DownloadCVClick.bind(this);
         this.state = {
             collapsed: true
         };
@@ -19,6 +20,10 @@ export class NavMenu extends Component {
         this.setState({
             collapsed: !this.state.collapsed
         });
+    }
+    DownloadCVClick() {
+        window.open('Files/TranThoaiThong - Backend Developer.pdf', '_blank', 'noopener,noreferrer');
+        //Consider  <a href='Files/TranThoaiThong - Backend Developer.pdf' download>Download CV</a>
     }
 
     render() {
@@ -36,9 +41,12 @@ export class NavMenu extends Component {
                                 <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
                             </NavItem>
                             <NavItem>
+                                <NavLink tag={Link} className="text-dark" to="/projects#Personal">Anch</NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/contacts">Contacts</NavLink>
                             </NavItem>
-                            <a href='Files/TranThoaiThong - Backend Developer.pdf' download>Click</a>
+                            <button className="btn-dark-primary" onClick={this.DownloadCVClick} >Download CV</button>
                         </ul>
                     </Collapse>
                 </Navbar>
