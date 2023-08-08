@@ -12,7 +12,7 @@ export class Projects extends Component {
     render() {
         return (
             <div>
-                <div style={{ backgroundColor: "#e4ab78" }}>
+                <div style={{ backgroundColor: "#e4d7bd" }}>
                     <div id="Top" className="align-middle text-center" style={{ paddingBlock: "8em" }}>
                         <h1>PROJECTS</h1>
                         <a href="projects#Personal">Personal</a>

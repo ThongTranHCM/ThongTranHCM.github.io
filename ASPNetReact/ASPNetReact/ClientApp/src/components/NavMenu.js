@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { HashLink as ALink } from 'react-router-hash-link';
 import './NavMenu.css';
 
 export class NavMenu extends Component {
@@ -39,6 +40,9 @@ export class NavMenu extends Component {
                             </NavItem>
                             <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink tag={Link} className="text-dark" to="/projects#Personal">Pers</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/contacts">Contacts</NavLink>

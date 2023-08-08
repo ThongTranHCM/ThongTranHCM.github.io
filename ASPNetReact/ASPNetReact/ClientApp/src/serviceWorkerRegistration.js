@@ -126,13 +126,6 @@ function checkValidServiceWorker(swUrl, config) {
 
 export function unregister() {
     console.log("UnreAgister");
-    window.addEventListener("load", function () {
-        // Set a timeout...
-        setTimeout(function () {
-            // Hide the address bar!
-            window.scrollTo(0, 1);
-        }, 0);
-    });
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.ready
             .then((registration) => {

@@ -46,6 +46,8 @@ export class Home extends Component {
                 </HomeHeader>
                 <HomeHeader h1Name="Skills" imgTint="220">
                     <h2>Programming Languages</h2>
+                    <Link to="/projects">Pro</Link>
+                    <Link to="/projects#Personal">Personal</Link>
                     <p>4 years experience of C#. 1 and a half  year experience of Backend development. 2 years of experience with SQL.</p>
                     <h2>Web Frameworks</h2>
                     <p>React, ASP.NET, Oracle ADF, Spring Framework</p>
