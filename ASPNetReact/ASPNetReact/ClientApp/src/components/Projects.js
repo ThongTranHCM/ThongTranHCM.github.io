@@ -36,19 +36,16 @@ export class Projects extends Component {
                         Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
                     </ProjectTab>
 
-                    <ProjectTab h3Name="Sky Champ" imgSource="skyChamp.png" googleplayurl="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">
-                        Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
+                    <ProjectTab h3Name="LOYCO Human Resources" imgSource="loyco.png">
+                        Handling business logics and data generation/manipulation around Human Resources, day off and salary.
                     </ProjectTab>
 
-                    <ProjectTab h3Name="Sky Champ" imgSource="skyChamp.png" googleplayurl="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">
-                        Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
+                    <ProjectTab h3Name="LOYCO Insurances" imgSource="loyco.png">
+                        Handling business logics and data generation/manipulation around Insurances, including humans and vehicles.
                     </ProjectTab>
 
-                    <ProjectTab h3Name="Dragon Mania Legends" imgSource="skyChamp.png" googleplayurl="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">
-                        Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
-                    </ProjectTab>
-                    <ProjectTab h3Name="Dragon Mania Legends" imgSource="skyChamp.png" googleplayurl="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">
-                        Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
+                    <ProjectTab h3Name="Dragon Mania Legends" imgSource="dragonManiaLegends.png" googleplayurl="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDOHM">
+                        Dragon mania legends is a town building merged with hero collecting RPG. You hatch, grow and breed dragons, and take them into battles.
                     </ProjectTab>
 
                     <div id="Personal" className="align-middle text-center" style={{ paddingBlock: "8em" }}>

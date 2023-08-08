@@ -76,7 +76,7 @@ export class ProjectTab extends Component {
                             zIndex: 2,
                             width: "100%",
                             height: "360px",
-                            filter: "brightness(60%) saturate(100%) "
+                            filter: "brightness(90%) saturate(100%) "
                         }} src={imgFile} alt="" />
                     </div>
                 </div>
