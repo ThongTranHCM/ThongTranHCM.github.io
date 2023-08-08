@@ -56,7 +56,7 @@ export class Home extends Component {
                 <HomeHeader h1Name="Careers" imgTint="280">
                     <h3 style={{ textIndent: "55px" }}>MOPA - Project Manager</h3>
                     <p>NOVEMBER  2021 - DECEMBER 2022,  DISTRICT 10</p>
-                    <p>Project Manager of 2 game projects: <a href="https://play.google.com/store/apps/details?id=com.mpt.boomerangwario">Fish IO</a> and <a href="https://play.google.com/store/apps/details?id=com.mpt.boomerangwario">Boomerang War.IO</a>.<br />
+                    <p>Project Manager of 2 game projects: <a href="https://play.google.com/store/apps/details?id=com.mpt.narwhal">Fish IO</a> and <a href="https://play.google.com/store/apps/details?id=com.mpt.boomerangwario">Boomerang War.IO</a>.<br />
                         Design, plan the game features and release schedules.<br />
                         Design tracking data structure. Build queries for team common usages.<br />
                         Support developer team on data structures.</p>
@@ -64,8 +64,8 @@ export class Home extends Component {
                     <h3 style={{ textIndent: "55px" }}>Spirit Bomb - Unity Developer</h3>
                     <p>NOVEMBER  2020 - DECEMBER 2021,  DISTRICT 4</p>
                     <p>Unity Developer at Spirit Bomb.<br />
-                        Maintain existing mobile games: Sky Champ ⇗ and Atlantis Invaders ⇗.<br />
-                        Build new game prototypes: Space Guardians ⇗.</p>
+                        Maintain existing mobile games: <a href="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">Sky Champ</a> and <a href="https://play.google.com/store/apps/details?id=atlantis.invaders.subnautica.space.shooter">Atlantis Invaders</a>.<br />
+                        Build new game prototypes: <a href="https://play.google.com/store/apps/details?id=galaxy.shooters.space.guardians">Space Guardians.</a></p>
 
                     <h3 style={{ textIndent: "55px" }}>LEAP VN - Web Developer</h3>
                     <p>OCTOBER  2019 - JUNE  2020,  BINH THANH, HCMC</p>

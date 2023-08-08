@@ -16,6 +16,7 @@ code {
     .btn-primary:hover {
         background-color: #c06f24;
     }
+
 .btn-dark-primary {
     color: #fff;
     background-color: #c06f24;
@@ -23,8 +24,16 @@ code {
 }
 
     .btn-dark-primary:hover {
+        color: #000000;
         background-color: #a05c20;
     }
+    .btn-dark-primary img {
+        filter: brightness(100%) saturate(100%);
+    }
+    .btn-dark-primary:hover img {
+        filter: brightness(5%) saturate(100%);
+    }
+
 .btn-hoverscale {
     transition: width 1s;
     width: 60px;
@@ -35,51 +44,63 @@ code {
         width: 90px;
         height: 90px;
     }
+
 .box-coffee {
     color: #fff;
     background-color: #e4ab78;
     border-color: #6a4928;
-    align-content:center;
+    align-content: center;
 }
+
 .box-white[type="text"] {
     color: #6a4928;
     background-color: #ffffff;
     border-color: #6a4928;
     align-content: center;
 }
+
 .flexbox-container {
     display: flex;
     flex-direction: row;
 }
+
 html, body {
     margin: 0;
     padding: 0;
 }
+
 .imgTintRed {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(330deg);
 }
+
 .imgTintYellow {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(20deg);
 }
+
 .imgTintGreen {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(90deg);
 }
+
 .imgTintBlue {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(180deg);
 }
+
 .imgTintPurple {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(220deg);
 }
+
 .imgFull {
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 600px;
 }
+
 .divFull {
     width: 100%;
     height: 600px;
 }
+
 h1 {
     font-size: 50px;
 }
