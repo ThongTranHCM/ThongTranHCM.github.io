@@ -69,6 +69,10 @@ html, body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .imgTintRed {
     filter: sepia(100%) saturate(300%) brightness(50%) hue-rotate(330deg);
 }

@@ -9,8 +9,8 @@ export class Home extends Component {
         return (
             <div>
                 <HomeHeader h1Name="Trần Thoại Thông" h2Name="Web Developer">
-                    <div class="row">
-                        <div class="col-sm-6 py-3">
+                    <div className="row">
+                        <div className="col-sm-6 py-3">
                             <div style={{ fontSize: "55px", textAlign: "left" }}>"</div>
                             <h3 style={{ textIndent: "55px", color: "#6a4928" }}>
                                 <Typewriter 
@@ -39,7 +39,7 @@ export class Home extends Component {
                             </h3>
                             <div style={{ fontSize: "55px", textAlign: "right" }}>"</div>
                         </div>
-                        <div class="col-sm-6">
+                        <div className="col-sm-6">
                             <img className="w-100 h-100" src="Images/avatar2.jpg" alt="" />
                         </div>
                     </div>
@@ -78,21 +78,21 @@ export class Home extends Component {
                 </HomeHeader>
                 <HomeHeader h1Name="Education" imgTint="340">
 
-                    <div class="row">
-                        <div class="col-sm-8 py-3">
+                    <div className="row">
+                        <div className="col-sm-8 py-3">
                             <h3 style={{ textIndent: "55px" }}>University of Science</h3>
                             <p>University of Science is a high-ranked university in teaching Computer Science in Vietnam.</p>
                         </div>
-                        <div class="col-sm-4">
+                        <div className="col-sm-4">
                             <img className="w-100 h-100" src="Images/UniversityOfScience.png" alt="" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-8 py-3">
+                    <div className="row">
+                        <div className="col-sm-8 py-3">
                             <h3 style={{ textIndent: "55px" }}>Le Hong Phong High School for the Gifted</h3>
                             <p>Consolation prize for National excellent student in Computer Science (C++) in 2015.</p>
                         </div>
-                        <div class="col-sm-4">
+                        <div className="col-sm-4">
                             <img className="w-100 h-100" src="Images/lehongphong.jpg" alt="" />
                         </div>
                     </div>

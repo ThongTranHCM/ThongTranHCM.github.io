@@ -58,40 +58,42 @@ export class Contacts extends Component {
     render() {
         return (
             <div>
-                <div class="row">
-                    <div class="col-sm-6">
+                <div className="row">
+                    <div className="col-sm-6">
                         <h1>QUICK INFO</h1>
                         <table>
-                            <tr style={{ height: '40px' }}>
-                                <th>Phone</th>
-                                <td>0798797905</td>
-                            </tr>
-                            <tr style={{ height: '40px' }}>
-                                <th>Email</th>
-                                <td>
-                                    <a href="mailto:thongtran1311@gmail.com">thongtran1311@gmail.com</a>
-                                </td>
-                            </tr>
-                            <tr style={{ height: '40px' }}>
-                                <th>Address</th>
-                                <td>628/89/31 Hau Giang Street District 6, Ho Chi Minh City</td>
-                            </tr>
-                            <tr style={{ height: '40px' }}>
-                                <th>Social Medias</th>
-                                <td>
-                                    <button className="btn btn-primary btn-hoverscale" onClick={this.FacebookButton_Click}>
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="30" alt="gh-pages branch setting" />
-                                    </button>
-                                    <button className="btn btn-primary btn-hoverscale" onClick={this.LinkedInButton_Click}>
-                                        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="30" alt="gh-pages branch setting" />
-                                    </button>
-                                </td>
-                            </tr>
+                            <tbody>
+                                <tr style={{ height: '40px' }}>
+                                    <th>Phone</th>
+                                    <td>0798797905</td>
+                                </tr>
+                                <tr style={{ height: '40px' }}>
+                                    <th>Email</th>
+                                    <td>
+                                        <a href="mailto:thongtran1311@gmail.com">thongtran1311@gmail.com</a>
+                                    </td>
+                                </tr>
+                                <tr style={{ height: '40px' }}>
+                                    <th>Address</th>
+                                    <td>628/89/31 Hau Giang Street District 6, Ho Chi Minh City</td>
+                                </tr>
+                                <tr style={{ height: '40px' }}>
+                                    <th>Social Medias</th>
+                                    <td>
+                                        <button className="btn btn-primary btn-hoverscale" onClick={this.FacebookButton_Click}>
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="30" alt="gh-pages branch setting" />
+                                        </button>
+                                        <button className="btn btn-primary btn-hoverscale" onClick={this.LinkedInButton_Click}>
+                                            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="30" alt="gh-pages branch setting" />
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
                         <p>{this.state.curBody}</p>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div className="col-sm-6">
                         <form
                             action={this.state.form_endpoint}
                             onSubmit={this.handleSubmit}
@@ -100,9 +102,9 @@ export class Contacts extends Component {
                             style={{ padding: "20px" }}
                         >
                             <h1>CONTACT ME</h1>
-                            <div class="row">
+                            <div className="row">
 
-                                <div class="col-sm-6">
+                                <div className="col-sm-6">
                                     <div className="mb-3 pt-0">
                                         <input
                                             type="text"
@@ -113,7 +115,7 @@ export class Contacts extends Component {
                                         />
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div className="col-sm-6">
                                     <div className="mb-3 pt-0">
                                         <input
                                             type="text"

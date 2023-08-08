@@ -8,12 +8,12 @@ export class Layout extends Component {
     render() {
         return (
             <div>
-                <div class="fixed-top">
+                <div className="fixed-top">
                     <NavMenu/>
                 </div>
                 <div style={{ height: "60px" }}/>
                 {this.props.children}
-                <div class="fixed-bottom">
+                <div className="fixed-bottom">
                     <ContactMenu/>
                 </div>
             </div>

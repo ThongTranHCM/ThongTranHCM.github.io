@@ -41,9 +41,6 @@ export class NavMenu extends Component {
                                 <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} className="text-dark" to="/projects#Personal">Anch</NavLink>
-                            </NavItem>
-                            <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/contacts">Contacts</NavLink>
                             </NavItem>
                             <button className="btn-dark-primary" onClick={this.DownloadCVClick} >Download CV</button>

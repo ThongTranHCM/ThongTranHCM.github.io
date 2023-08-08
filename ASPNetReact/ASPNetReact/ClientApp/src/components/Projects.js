@@ -15,6 +15,7 @@ export class Projects extends Component {
                 <div style={{ backgroundColor: "#e4ab78" }}>
                     <div id="Top" className="align-middle text-center" style={{ paddingBlock: "8em" }}>
                         <h1>PROJECTS</h1>
+                        <a href="projects#Personal">Personal</a>
                     </div>
                     <ProjectTab h3Name="Fish IO" imgSource="fishIO.png" googleplayurl="https://play.google.com/store/apps/details?id=com.mpt.narwhal">
                         One of the success title that startup MOPA team. An IO game where players control fishes with swords. Goal of the game is too survive while kill othe player fishes and giant bosses.
