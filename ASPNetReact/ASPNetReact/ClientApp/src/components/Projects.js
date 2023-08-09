@@ -16,7 +16,7 @@ export class Projects extends Component {
                 <div style={{ backgroundColor: "#e4d7bd" }}>
                     <div id="Top" className="align-middle text-center" style={{ paddingBlock: "8em" }}>
                         <h1>PROJECTS</h1>
-                        <a href="projects#Personal">Personal</a>
+                        <Link to="#Personal">Personal</Link>
                     </div>
 
                     <div id="FishIO" />
