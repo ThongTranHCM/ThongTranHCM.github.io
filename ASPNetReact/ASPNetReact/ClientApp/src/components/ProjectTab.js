@@ -62,11 +62,11 @@ export class ProjectTab extends Component {
         }
         return (
             <div>
-                <div className="m-3 p-3 row relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" style={{height: "400px"} }>
+                <div className="m-3 px-3 py-3 row relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" style={{height: "400px"} }>
                     <div className="col-sm-6">
                         <h3>{this.props.h3Name}</h3>
                         {this.props.children}
-                        <div className="d-flex p-3 w-100">
+                        <div className="d-flex px-3 py-3 w-100">
                             <GithubButton onClick={this.LinkGithubClick}  link={this.props.githuburl} />
                             <GooglePlayButton onClick={this.LinkGooglePlayClick} link={this.props.googleplayurl} />
                         </div>

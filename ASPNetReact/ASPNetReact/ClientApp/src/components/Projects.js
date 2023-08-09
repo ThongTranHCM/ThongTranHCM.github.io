@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ProjectTab } from "./ProjectTab";
+import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
     static displayName = Projects.name;
@@ -17,34 +18,43 @@ export class Projects extends Component {
                         <h1>PROJECTS</h1>
                         <a href="projects#Personal">Personal</a>
                     </div>
+
+                    <div id="FishIO" />
                     <ProjectTab h3Name="Fish IO" imgSource="fishIO.png" googleplayurl="https://play.google.com/store/apps/details?id=com.mpt.narwhal">
                         One of the success title that startup MOPA team. An IO game where players control fishes with swords. Goal of the game is too survive while kill othe player fishes and giant bosses.
                     </ProjectTab>
 
-                    <ProjectTab h3Name="Boomerang IO" imgSource="boomerangIO.png" googleplayurl="https://play.google.com/store/apps/details?id=com.mpt.boomerangwario">
+                    <div id="BoomerangIO" />
+                    <ProjectTab h3Name="Boomerang War IO" imgSource="boomerangIO.png" googleplayurl="https://play.google.com/store/apps/details?id=com.mpt.boomerangwario">
                         A successor of FISH IO, but as an experiment with 3D visuals. It has interesting gameplay but did not have potential to grow.
                     </ProjectTab>
 
+                    <div id="AtlantisInvaders" />
                     <ProjectTab h3Name="Atlantis Invaders" imgSource="atlantisInvader.png" googleplayurl="https://play.google.com/store/apps/details?id=atlantis.invaders.subnautica.space.shooter">
                         A successor of Sky Champ. With a much more in-depth meta games, introducing swap ship mechanics. It became a stable-income for Spirit Bomb.
                     </ProjectTab>
 
+                    <div id="SpaceGuardians" />
                     <ProjectTab h3Name="Space Guardians" imgSource="spaceGuardian.png" googleplayurl="https://play.google.com/store/apps/details?id=galaxy.shooters.space.guardians">
                         One spin off of Sky Champ with a more cartoon look of the monsters and a space theme.
                     </ProjectTab>
 
+                    <div id="SkyChamp" />
                     <ProjectTab h3Name="Sky Champ" imgSource="skyChamp.png" googleplayurl="https://play.google.com/store/apps/details?id=co.spiritbomb.skychamp">
                         Sky Champ is a shoot em up game. It is one of the original successful title of Spirit Bomb.
                     </ProjectTab>
 
+                    <div id="LOYCOHR" />
                     <ProjectTab h3Name="LOYCO Human Resources" imgSource="loyco.png">
                         Handling business logics and data generation/manipulation around Human Resources, day off and salary.
                     </ProjectTab>
 
+                    <div id="LOYCOInsurance" />
                     <ProjectTab h3Name="LOYCO Insurances" imgSource="loyco.png">
                         Handling business logics and data generation/manipulation around Insurances, including humans and vehicles.
                     </ProjectTab>
 
+                    <div id="DML" />
                     <ProjectTab h3Name="Dragon Mania Legends" imgSource="dragonManiaLegends.png" googleplayurl="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDOHM">
                         Dragon mania legends is a town building merged with hero collecting RPG. You hatch, grow and breed dragons, and take them into battles.
                     </ProjectTab>
