@@ -11,7 +11,6 @@ export class HomeHeader extends Component {
 
     render() {
         let imgTint, imgSepia, imgBrightness, imgSaturate, imgGrayscale, imgFilter;
-        let imgHeight = "400px";
         if (!this.props.imgTint) {
             imgGrayscale = "grayscale(100%) ";
             imgSepia = ""
@@ -25,27 +24,19 @@ export class HomeHeader extends Component {
             imgSaturate = "saturate(200%) ";
             imgTint = "hue-rotate(".concat(this.props.imgTint).concat("deg) ");
         }
-        let imgFile = "Images/avatar2small.jpg";
+        let bgImg = 'url("Images/avatar2.jpg")';
         if (this.props.imgSource) {
-            imgFile = "Images/".concat(this.props.imgSource);
-        }
-        if (this.props.imgHeight) {
-            imgHeight = this.props.imgHeight;
+            bgImg = 'url("Images/'.concat(this.props.imgSource).concat('")');
         }
         imgFilter = imgGrayscale.concat(imgSepia).concat(imgBrightness).concat(imgSaturate).concat(imgTint);
         return (
             <div>
-                <div className="text-white" style={{ height: imgHeight }}>
-                    <img className={this.props.imgClass} style={{
-                        position: "absolute",
-                        zIndex: -1,
-                        width: "100%",
-                        height: imgHeight,
-                        filter: imgFilter
-                    }} src={imgFile} alt="" />
-                    <div className="align-middle text-center" style={{ paddingBlock: "10em" }}>
-                        <h1>{this.props.h1Name}</h1>
-                        <h2>{this.props.h2Name}</h2>
+                <div className="text-white" >
+                    <div class="parallax tint-coffee" style={{
+                    }}
+                    >
+                        <div class="caption">
+                            <span class="border">{this.props.h1Name}</span> </div>
                     </div>
                 </div>
                 <div className="divFull px-3 py-3">

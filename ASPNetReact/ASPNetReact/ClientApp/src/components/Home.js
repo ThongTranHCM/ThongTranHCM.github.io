@@ -8,7 +8,7 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <HomeHeader h1Name="Trần Thoại Thông" h2Name="Web Developer">
+                <HomeHeader h1Name="Trần Thoại Thông">
                     <div className="row">
                         <div className="col-sm-6 py-2">
                             <div style={{ fontSize: "45px", textAlign: "left" }}>"</div>
@@ -43,7 +43,7 @@ export class Home extends Component {
                             <Link to="/projects">Project</Link>, <Link to="/projects#Personal">Personal</Link>
                         </div>
                         <div className="col-sm-6">
-                            <img className="w-100 h-100" src="Images/avatar2small.jpg" alt="" />
+                            <img className="w-100 h-100" src="Images/avatar2.jpg" alt="" />
                         </div>
                     </div>
                 </HomeHeader>

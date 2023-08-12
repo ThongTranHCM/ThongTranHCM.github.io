@@ -108,3 +108,39 @@ html {
 h1 {
     font-size: 50px;
 }
+
+.parallax {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-image: url("../public/Images/avatar2.jpg");
+    background-size: cover;
+    min-height: 400px;
+}
+
+.tint-coffee::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color:  #6a492840;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+    .caption span.border {
+        background-color: #8a5430;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
