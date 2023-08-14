@@ -1,45 +1,202 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <base href="%PUBLIC_URL%/" />
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="/ASPNetReact/ClientApp/public/manifest.json">
-    <link rel="shortcut icon" href="/ASPNetReact/ClientApp/public/favicon.ico" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+﻿---
+layout: home
+title: GitHub and Government
+description: Make government better, together. Stories of open source, open data, and open government.
+org_count: 60
+permalink: /
+---
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Trần Thoại Thông</title>
-  </head>
-  <body>
-      <h1>h1.</h1>
-      <h1>h2 first.</h1>
-      <h1>h3 1 1 1.</h1>
-      <p>Outside html</p>
-    <noscript>
-      You  need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <div class="container-lg p-responsive py-4 py-lg-6 my-xl-4 text-center">
+    <h1 class="alt-h1 mb-2 text-white">How agencies build&nbsp;software</h1>
+    <p class="f2-light text-white">Collaborate on code, data, policy, or procurement within your agency or with the&nbsp;public.</p>
+  </div>
+</div><!-- ends .full-width that started in header.html -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<div class="container-lg p-responsive">
+  <div class="Box clearfix p-4 p-sm-5 col-md-7 mx-auto mt-6">
+    <div class="float-left">
+      <img class="d-block pr-4" style="width: 80px;" alt="FedRAMP Logo" src="{{"/assets/img/Fedramp-logo.svg" | relative_url}}">
+    </div>
+    <div class="overflow-hidden">
+      <p>GitHub is now Federal Risk and Authorization Management Program (FedRAMP) authorized.
+      </p>
+      <a href="{{"/fedramp/" | relative_url}}">Learn More {% octicon chevron-right height:18 class:"d-inline fill-blue ml-1" %}</a>
+    </div>
+  </div>
+</div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-</html>
+<section class="container-lg p-responsive py-5 py-md-6 my-lg-6">
+  <div class="clearfix gutter-spacious">
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon terminal height:28 class:"fill-blue d-inline mr-2" aria-label:terminal %}
+        Collaborate on code
+      </h2>
+      <p class="text-gray">Code collaboration and review are built into the development process with GitHub. Share work, discuss changes, and get feedback in one place to write quality code.</p>
+    </div>
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon server height:28 class:"fill-blue d-inline mr-2" aria-label:server %}
+        This is a clone from github. Trying to learn github pages.
+      </h2>
+      <p class="text-gray">Run <a href="{{"/aws-govcloud.html" | relative_url}}">AWS GovCloud</a> A line.</p>
+    </div>
+  </div>
+
+  <div class="clearfix gutter-spacious">
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon beaker height:28 class:"fill-blue d-inline mr-2" aria-label:beaker %}
+      </h2>
+      <p class="text-gray">Test git hub pages. Text gray</p>
+    </div>
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon tools height:28 class:"fill-blue d-inline mr-2" aria-label:tools %}
+        Software built your way
+      </h2>
+      <p class="text-gray">Text gray.</p>
+    </div>
+  </div>
+
+  <div class="clearfix gutter-spacious">
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon code height:28 class:"fill-blue d-inline mr-2" aria-label:code %}
+        InnerSource inside your agency
+      </h2>
+      <p class="text-gray">Text gray.</p>
+    </div>
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon lock height:28 class:"fill-blue d-inline mr-2" aria-label:lock %}
+        Enterprise controls that agencies need
+      </h2>
+      <p class="text-gray">Text gray.</p>
+    </div>
+  </div>
+
+  <div class="clearfix gutter-spacious">
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon globe height:28 class:"fill-blue d-inline mr-2" aria-label:globe %}
+        Alt h3 mb 2
+      </h2>
+      <p class="text-gray">Text is gray.</p>
+    </div>
+    <div class="mb-3 mb-md-5 col-md-6 float-left">
+      <h2 class="alt-h3 mb-2">
+        {% octicon checklist height:28 class:"fill-blue d-inline mr-2" aria-label:checklist %}
+        Alt h3 mb 2 (float left)
+      </h2>
+      <p class="text-gray">Text is gray.</p>
+    </div>
+  </div>
+
+  <p class="text-center">
+    <a href="https://github.com/features" class="btn btn-outline">Learn more about GitHub &rarr;</a>
+  </p>
+</section>
+
+
+<section class="bg-gray-light">
+  <div class="container-lg p-responsive py-5 py-md-6 ">
+
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">More than just code</h2>
+    <p class="alt-lead text-gray text-center col-md-10 mx-auto">mx auto.</p>
+
+    <div class="my-4 my-lg-6 clearfix gutter-spacious">
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">Open Source</h3>
+        <h3 class="alt-h3 mb-3">Fishy fishy fish</h3>
+        <p><a href="https://play.google.com/store/apps/details?id=com.mpt.narwhal" target="_blank">
+          <img src="ASPNetReact/ClientApp/public/Images/fishIO.png" class="img-border" alt="Fish IO"/></a>
+        </p>
+        <small>Small text</small>
+      </div>
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">Fishy fishy fish</h3>
+        <p><a href="https://play.google.com/store/apps/details?id=com.mpt.narwhal" target="_blank">
+          <img src="ASPNetReact/ClientApp/public/Images/fishIO.png" class="img-border" alt="Fish IO"/></a>
+        </p>
+        <small>Small text</small>
+      </div>
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">Fishy fishy fish</h3>
+        <p><a href="https://play.google.com/store/apps/details?id=com.mpt.narwhal" target="_blank">
+          <img src="ASPNetReact/ClientApp/public/Images/fishIO.png" class="img-border" alt="Fish IO"/></a>
+        </p>
+        <small>Small text</small>
+      </div>
+    </div>
+
+    <p class="text-center">
+      <a href="https://github.com/collections/government" class="btn btn-outline">See more showcases &rarr;</a>
+    </p>
+
+  </div>
+</section>
+
+<section class="">
+  <div class="container-lg p-responsive py-5 py-md-6 ">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">Join the Revolution</h2>
+    <p class="alt-lead text-gray text-center col-md-10 mx-auto">Text gray.</p>
+  </div>
+  <div style="overflow: hidden;">
+    {% assign count = 0 %}
+    {% for group in site.data.governments %}
+      {% for org in group[1] %}
+        {% assign count = count | plus:1 %}
+      {% endfor %}
+    {% endfor %}
+    <div class="featured-orgs text-center p-2 m-2">
+      {% for org in site.featured_orgs %}
+      <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="get-started" class="mini-section mt-6">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6">Get started today</h2>
+    <p class="alt-lead text-gray text-center col-md-10 mx-auto">Create a free account to get started with GitHub. <a href="mailto:government@github.com">Contact us</a> to learn more about hosting your own GitHub instance.</p>
+
+    <div class="mt-md-6 clearfix gutter-spacious">
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Sign up for an account</h3>
+        <p class="text-gray">Text gray.</p>
+        <p class="text-gray">Text gray</p>
+      </div>
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Create an organization</h3>
+        <p class="text-gray">Text gray.</p>
+        <p class="text-gray">Text gray</p>
+      </div>
+    </div>
+    <div class="mb-md-6 clearfix gutter-spacious">
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Join the Peer Group</h3>
+        <p class="text-gray">Text gray.</p>
+        <p class="text-gray">Text gray</p>
+      </div>
+      <div class="mb-4 col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Learn More</h3>
+        <p class="text-gray">Text gray.</p>
+        <p class="text-gray">Text gray</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact-a-human" class="bg-gray-light">
+  <div class="container-lg p-responsive py-5 py-md-6 text-center">
+    <span class="text-center">
+      {% octicon person height:42 class:"d-block mx-auto mb-4 text-center fill-gray" aria-label:person %}
+    </span>
+    <h3 class="alt-h2 mb-4">Talk to a human</h3>
+    <p>Email.</p>
+    <p>A href.</p>
+  </div>
+</section>
