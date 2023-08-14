@@ -6,7 +6,6 @@ export const ProjectTab = (props) => {
     // Get the distance from the start of the page to the element start
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-    console.log("--------------------Scroll " + scrollTop);
     let elem = document.getElementById("CurrentProjectTab");
     let rect = new DOMRect(scrollTop, scrollLeft, 100, 100)
     if (typeof elem === 'object' && elem !== null && 'getBoundingClientRect' in elem) {
@@ -17,7 +16,6 @@ export const ProjectTab = (props) => {
     }
     let offsetStart = rect.top + scrollTop;
     let offsetEnd = (offsetStart + rect.height);
-    console.log("OFFSET2 " + offsetStart + "  " + offsetEnd + "  " + document.body.clientHeight);
     let elementScrollStart = offsetStart / document.body.clientHeight;
     let elementScrollEnd = offsetEnd / document.body.clientHeight;
     let scale = useTransform(scrollYProgress, [elementScrollStart, elementScrollEnd], [0.8, 1]);
